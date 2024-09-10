@@ -4,7 +4,7 @@ public class Projectile : MonoBehaviour
 {
     public float speed = 5f;
 
-    private void Update()
+    void Update()
     {
         transform.Translate(Time.deltaTime * speed * new Vector3(0, 3f));
     }
